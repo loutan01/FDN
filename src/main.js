@@ -1,5 +1,5 @@
 import Vue from 'vue';
-//https://stackoverflow.com/questions/49371467/bootstrap-vue-doesnt-load-css
+
 import BootstrapVue from 'bootstrap-vue'
 Vue.use(BootstrapVue)
 import 'bootstrap/dist/css/bootstrap.css'
