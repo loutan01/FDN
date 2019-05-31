@@ -43,7 +43,6 @@
   </b-container>
 </template>
 
-
 <script>
   export default {
     data() {
