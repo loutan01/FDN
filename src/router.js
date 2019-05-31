@@ -22,6 +22,7 @@ export default new Router({
     component: FirstPage,
   }, {
     path: '/secondPage',
+    name: 'second',
     component: SecondPage,
   },{
     path:'/login',
