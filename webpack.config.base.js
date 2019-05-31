@@ -5,6 +5,11 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const path = require('path');
 
 module.exports = {
+  resolve: {
+      alias: {
+        vue: 'vue/dist/vue.js'
+      }
+    },
   entry: [
     './src/main.js',
   ],
